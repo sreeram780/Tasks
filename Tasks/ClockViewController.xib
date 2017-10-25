@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ClockViewController">
+            <connections>
+                <outlet property="analogView" destination="DtU-Be-wzG" id="f6G-Ot-63M"/>
+                <outlet property="clockSwitcher" destination="rUQ-iY-CeH" id="baq-1Q-39E"/>
+                <outlet property="currentTimeLabel" destination="akw-VA-0IX" id="ZEu-GA-2Sn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rUQ-iY-CeH">
+                    <rect key="frame" x="60" y="50" width="200" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="c8Y-9K-9Kj"/>
+                    </constraints>
+                    <segments>
+                        <segment title="Digital Clock"/>
+                        <segment title="Analog Clock"/>
+                    </segments>
+                    <connections>
+                        <action selector="updatetoCurrentTime:" destination="-1" eventType="valueChanged" id="Ovq-Aa-zbO"/>
+                    </connections>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akw-VA-0IX">
+                    <rect key="frame" x="60" y="158" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="l76-aA-xgF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DtU-Be-wzG" customClass="AnalogClock">
+                    <rect key="frame" x="60" y="114" width="200" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="4WE-SM-VUW"/>
+                        <constraint firstAttribute="width" constant="200" id="4hu-32-TGx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rUQ-iY-CeH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4yb-AS-PBE"/>
+                <constraint firstItem="DtU-Be-wzG" firstAttribute="top" secondItem="rUQ-iY-CeH" secondAttribute="bottom" constant="36" id="Dex-5D-vaf"/>
+                <constraint firstItem="akw-VA-0IX" firstAttribute="top" secondItem="rUQ-iY-CeH" secondAttribute="bottom" constant="80" id="O7N-Qz-eYf"/>
+                <constraint firstItem="akw-VA-0IX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="ahm-d7-pca"/>
+                <constraint firstItem="DtU-Be-wzG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fIv-of-0rP"/>
+                <constraint firstAttribute="trailing" secondItem="akw-VA-0IX" secondAttribute="trailing" constant="60" id="udu-fW-vbN"/>
+                <constraint firstItem="rUQ-iY-CeH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="yb6-1c-LUh"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

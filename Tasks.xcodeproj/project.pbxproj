@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C28F021B1FA05EF1008EA523 /* StackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28F02191FA05EF1008EA523 /* StackViewController.m */; };
+		C28F021C1FA05EF1008EA523 /* StackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28F021A1FA05EF1008EA523 /* StackViewController.xib */; };
+		C28F024F1FA0873C008EA523 /* AlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28F024D1FA0873B008EA523 /* AlertTableViewController.m */; };
+		C28F02501FA0873C008EA523 /* AlertTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28F024E1FA0873B008EA523 /* AlertTableViewController.xib */; };
+		C28F02541FA08814008EA523 /* DetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28F02521FA08813008EA523 /* DetViewController.m */; };
+		C28F02551FA08814008EA523 /* DetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28F02531FA08814008EA523 /* DetViewController.xib */; };
 		C29F6DCA1F9EF6D300F7FDFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DC91F9EF6D300F7FDFD /* main.m */; };
 		C29F6DCD1F9EF6D300F7FDFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DCC1F9EF6D300F7FDFD /* AppDelegate.m */; };
 		C29F6DD01F9EF6D300F7FDFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DCF1F9EF6D300F7FDFD /* ViewController.m */; };
 		C29F6DD31F9EF6D300F7FDFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29F6DD11F9EF6D300F7FDFD /* Main.storyboard */; };
 		C29F6DD51F9EF6D300F7FDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29F6DD41F9EF6D300F7FDFD /* Assets.xcassets */; };
 		C29F6DD81F9EF6D300F7FDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29F6DD61F9EF6D300F7FDFD /* LaunchScreen.storyboard */; };
+		C29F6DE31F9F002100F7FDFD /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DE11F9F002100F7FDFD /* ClockViewController.m */; };
+		C29F6DE41F9F002100F7FDFD /* ClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29F6DE21F9F002100F7FDFD /* ClockViewController.xib */; };
+		C29F6DE71F9F05DA00F7FDFD /* AnalogClock.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DE61F9F05DA00F7FDFD /* AnalogClock.m */; };
+		C29F6DEB1F9F0C9F00F7FDFD /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DEA1F9F0C9F00F7FDFD /* Hand.m */; };
+		C29F6DF21F9F193100F7FDFD /* AutoTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DF01F9F193100F7FDFD /* AutoTextViewController.m */; };
+		C29F6DF31F9F193100F7FDFD /* AutoTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29F6DF11F9F193100F7FDFD /* AutoTextViewController.xib */; };
+		C29F6DF81F9F273400F7FDFD /* VisitingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DF61F9F273400F7FDFD /* VisitingViewController.m */; };
+		C29F6DF91F9F273400F7FDFD /* VisitingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29F6DF71F9F273400F7FDFD /* VisitingViewController.xib */; };
+		C29F6DFD1F9F363900F7FDFD /* AddVisitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6DFB1F9F363900F7FDFD /* AddVisitorViewController.m */; };
+		C29F6DFE1F9F363900F7FDFD /* AddVisitorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29F6DFC1F9F363900F7FDFD /* AddVisitorViewController.xib */; };
+		C29F6E031F9F507F00F7FDFD /* EnterTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6E011F9F507F00F7FDFD /* EnterTextViewController.m */; };
+		C29F6E041F9F507F00F7FDFD /* EnterTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29F6E021F9F507F00F7FDFD /* EnterTextViewController.xib */; };
+		C29F6E081F9F57B900F7FDFD /* TextDeatilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6E061F9F57B900F7FDFD /* TextDeatilViewController.m */; };
+		C29F6E091F9F57B900F7FDFD /* TextDeatilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29F6E071F9F57B900F7FDFD /* TextDeatilViewController.xib */; };
+		C29F6E0D1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6E0B1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.m */; };
+		C29F6E0E1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29F6E0C1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.xib */; };
+		C29F6E191F9F705200F7FDFD /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F6E171F9F705200F7FDFD /* SearchViewController.m */; };
+		C29F6E1A1F9F705200F7FDFD /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29F6E181F9F705200F7FDFD /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C28F02181FA05EF1008EA523 /* StackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackViewController.h; sourceTree = "<group>"; };
+		C28F02191FA05EF1008EA523 /* StackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackViewController.m; sourceTree = "<group>"; };
+		C28F021A1FA05EF1008EA523 /* StackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackViewController.xib; sourceTree = "<group>"; };
+		C28F024C1FA0873B008EA523 /* AlertTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableViewController.h; sourceTree = "<group>"; };
+		C28F024D1FA0873B008EA523 /* AlertTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableViewController.m; sourceTree = "<group>"; };
+		C28F024E1FA0873B008EA523 /* AlertTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertTableViewController.xib; sourceTree = "<group>"; };
+		C28F02511FA08813008EA523 /* DetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetViewController.h; sourceTree = "<group>"; };
+		C28F02521FA08813008EA523 /* DetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetViewController.m; sourceTree = "<group>"; };
+		C28F02531FA08814008EA523 /* DetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetViewController.xib; sourceTree = "<group>"; };
 		C29F6DC51F9EF6D300F7FDFD /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29F6DC91F9EF6D300F7FDFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C29F6DCB1F9EF6D300F7FDFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +59,34 @@
 		C29F6DD41F9EF6D300F7FDFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29F6DD71F9EF6D300F7FDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C29F6DD91F9EF6D300F7FDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29F6DE01F9F002100F7FDFD /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		C29F6DE11F9F002100F7FDFD /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		C29F6DE21F9F002100F7FDFD /* ClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClockViewController.xib; sourceTree = "<group>"; };
+		C29F6DE51F9F05DA00F7FDFD /* AnalogClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalogClock.h; sourceTree = "<group>"; };
+		C29F6DE61F9F05DA00F7FDFD /* AnalogClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalogClock.m; sourceTree = "<group>"; };
+		C29F6DE91F9F0C9F00F7FDFD /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		C29F6DEA1F9F0C9F00F7FDFD /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+		C29F6DEF1F9F193100F7FDFD /* AutoTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoTextViewController.h; sourceTree = "<group>"; };
+		C29F6DF01F9F193100F7FDFD /* AutoTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoTextViewController.m; sourceTree = "<group>"; };
+		C29F6DF11F9F193100F7FDFD /* AutoTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoTextViewController.xib; sourceTree = "<group>"; };
+		C29F6DF51F9F273400F7FDFD /* VisitingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitingViewController.h; sourceTree = "<group>"; };
+		C29F6DF61F9F273400F7FDFD /* VisitingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitingViewController.m; sourceTree = "<group>"; };
+		C29F6DF71F9F273400F7FDFD /* VisitingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitingViewController.xib; sourceTree = "<group>"; };
+		C29F6DFA1F9F363900F7FDFD /* AddVisitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVisitorViewController.h; sourceTree = "<group>"; };
+		C29F6DFB1F9F363900F7FDFD /* AddVisitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVisitorViewController.m; sourceTree = "<group>"; };
+		C29F6DFC1F9F363900F7FDFD /* AddVisitorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddVisitorViewController.xib; sourceTree = "<group>"; };
+		C29F6E001F9F507F00F7FDFD /* EnterTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterTextViewController.h; sourceTree = "<group>"; };
+		C29F6E011F9F507F00F7FDFD /* EnterTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterTextViewController.m; sourceTree = "<group>"; };
+		C29F6E021F9F507F00F7FDFD /* EnterTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterTextViewController.xib; sourceTree = "<group>"; };
+		C29F6E051F9F57B900F7FDFD /* TextDeatilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDeatilViewController.h; sourceTree = "<group>"; };
+		C29F6E061F9F57B900F7FDFD /* TextDeatilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextDeatilViewController.m; sourceTree = "<group>"; };
+		C29F6E071F9F57B900F7FDFD /* TextDeatilViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextDeatilViewController.xib; sourceTree = "<group>"; };
+		C29F6E0A1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpantTextTableViewCell.h; sourceTree = "<group>"; };
+		C29F6E0B1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpantTextTableViewCell.m; sourceTree = "<group>"; };
+		C29F6E0C1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpantTextTableViewCell.xib; sourceTree = "<group>"; };
+		C29F6E161F9F705200F7FDFD /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		C29F6E171F9F705200F7FDFD /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C29F6E181F9F705200F7FDFD /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +100,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C28F02171FA05EC5008EA523 /* stackView */ = {
+			isa = PBXGroup;
+			children = (
+				C28F02181FA05EF1008EA523 /* StackViewController.h */,
+				C28F02191FA05EF1008EA523 /* StackViewController.m */,
+				C28F021A1FA05EF1008EA523 /* StackViewController.xib */,
+			);
+			name = stackView;
+			sourceTree = "<group>";
+		};
+		C28F024B1FA0871B008EA523 /* AlertToTable */ = {
+			isa = PBXGroup;
+			children = (
+				C28F024C1FA0873B008EA523 /* AlertTableViewController.h */,
+				C28F024D1FA0873B008EA523 /* AlertTableViewController.m */,
+				C28F024E1FA0873B008EA523 /* AlertTableViewController.xib */,
+				C28F02511FA08813008EA523 /* DetViewController.h */,
+				C28F02521FA08813008EA523 /* DetViewController.m */,
+				C28F02531FA08814008EA523 /* DetViewController.xib */,
+			);
+			name = AlertToTable;
+			sourceTree = "<group>";
+		};
 		C29F6DBC1F9EF6D300F7FDFD = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +146,13 @@
 				C29F6DCC1F9EF6D300F7FDFD /* AppDelegate.m */,
 				C29F6DCE1F9EF6D300F7FDFD /* ViewController.h */,
 				C29F6DCF1F9EF6D300F7FDFD /* ViewController.m */,
+				C28F024B1FA0871B008EA523 /* AlertToTable */,
+				C29F6DDF1F9F000700F7FDFD /* Clocks */,
+				C29F6DEE1F9F18EB00F7FDFD /* AutoTextView */,
+				C29F6DF41F9F270900F7FDFD /* Visiting */,
+				C29F6DFF1F9F500C00F7FDFD /* MultiLineText */,
+				C29F6E0F1F9F6F8500F7FDFD /* Search */,
+				C28F02171FA05EC5008EA523 /* stackView */,
 				C29F6DD11F9EF6D300F7FDFD /* Main.storyboard */,
 				C29F6DD41F9EF6D300F7FDFD /* Assets.xcassets */,
 				C29F6DD61F9EF6D300F7FDFD /* LaunchScreen.storyboard */,
@@ -77,6 +168,93 @@
 				C29F6DC91F9EF6D300F7FDFD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C29F6DDF1F9F000700F7FDFD /* Clocks */ = {
+			isa = PBXGroup;
+			children = (
+				C29F6DE01F9F002100F7FDFD /* ClockViewController.h */,
+				C29F6DE11F9F002100F7FDFD /* ClockViewController.m */,
+				C29F6DE21F9F002100F7FDFD /* ClockViewController.xib */,
+				C29F6DED1F9F10C100F7FDFD /* AnalogClockView */,
+			);
+			name = Clocks;
+			sourceTree = "<group>";
+		};
+		C29F6DE81F9F0C7D00F7FDFD /* Hand */ = {
+			isa = PBXGroup;
+			children = (
+				C29F6DE91F9F0C9F00F7FDFD /* Hand.h */,
+				C29F6DEA1F9F0C9F00F7FDFD /* Hand.m */,
+			);
+			name = Hand;
+			sourceTree = "<group>";
+		};
+		C29F6DEC1F9F10B100F7FDFD /* AnalogView */ = {
+			isa = PBXGroup;
+			children = (
+				C29F6DE51F9F05DA00F7FDFD /* AnalogClock.h */,
+				C29F6DE61F9F05DA00F7FDFD /* AnalogClock.m */,
+			);
+			name = AnalogView;
+			sourceTree = "<group>";
+		};
+		C29F6DED1F9F10C100F7FDFD /* AnalogClockView */ = {
+			isa = PBXGroup;
+			children = (
+				C29F6DEC1F9F10B100F7FDFD /* AnalogView */,
+				C29F6DE81F9F0C7D00F7FDFD /* Hand */,
+			);
+			name = AnalogClockView;
+			sourceTree = "<group>";
+		};
+		C29F6DEE1F9F18EB00F7FDFD /* AutoTextView */ = {
+			isa = PBXGroup;
+			children = (
+				C29F6DEF1F9F193100F7FDFD /* AutoTextViewController.h */,
+				C29F6DF01F9F193100F7FDFD /* AutoTextViewController.m */,
+				C29F6DF11F9F193100F7FDFD /* AutoTextViewController.xib */,
+			);
+			name = AutoTextView;
+			sourceTree = "<group>";
+		};
+		C29F6DF41F9F270900F7FDFD /* Visiting */ = {
+			isa = PBXGroup;
+			children = (
+				C29F6DF51F9F273400F7FDFD /* VisitingViewController.h */,
+				C29F6DF61F9F273400F7FDFD /* VisitingViewController.m */,
+				C29F6DF71F9F273400F7FDFD /* VisitingViewController.xib */,
+				C29F6DFA1F9F363900F7FDFD /* AddVisitorViewController.h */,
+				C29F6DFB1F9F363900F7FDFD /* AddVisitorViewController.m */,
+				C29F6DFC1F9F363900F7FDFD /* AddVisitorViewController.xib */,
+			);
+			name = Visiting;
+			sourceTree = "<group>";
+		};
+		C29F6DFF1F9F500C00F7FDFD /* MultiLineText */ = {
+			isa = PBXGroup;
+			children = (
+				C29F6E001F9F507F00F7FDFD /* EnterTextViewController.h */,
+				C29F6E011F9F507F00F7FDFD /* EnterTextViewController.m */,
+				C29F6E021F9F507F00F7FDFD /* EnterTextViewController.xib */,
+				C29F6E051F9F57B900F7FDFD /* TextDeatilViewController.h */,
+				C29F6E061F9F57B900F7FDFD /* TextDeatilViewController.m */,
+				C29F6E071F9F57B900F7FDFD /* TextDeatilViewController.xib */,
+				C29F6E0A1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.h */,
+				C29F6E0B1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.m */,
+				C29F6E0C1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.xib */,
+			);
+			name = MultiLineText;
+			sourceTree = "<group>";
+		};
+		C29F6E0F1F9F6F8500F7FDFD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C29F6E161F9F705200F7FDFD /* SearchViewController.h */,
+				C29F6E171F9F705200F7FDFD /* SearchViewController.m */,
+				C29F6E181F9F705200F7FDFD /* SearchViewController.xib */,
+			);
+			name = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +317,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C29F6DD81F9EF6D300F7FDFD /* LaunchScreen.storyboard in Resources */,
+				C29F6DFE1F9F363900F7FDFD /* AddVisitorViewController.xib in Resources */,
 				C29F6DD51F9EF6D300F7FDFD /* Assets.xcassets in Resources */,
+				C29F6DF31F9F193100F7FDFD /* AutoTextViewController.xib in Resources */,
+				C29F6E0E1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.xib in Resources */,
+				C29F6DF91F9F273400F7FDFD /* VisitingViewController.xib in Resources */,
+				C29F6E091F9F57B900F7FDFD /* TextDeatilViewController.xib in Resources */,
+				C29F6E1A1F9F705200F7FDFD /* SearchViewController.xib in Resources */,
 				C29F6DD31F9EF6D300F7FDFD /* Main.storyboard in Resources */,
+				C28F021C1FA05EF1008EA523 /* StackViewController.xib in Resources */,
+				C28F02551FA08814008EA523 /* DetViewController.xib in Resources */,
+				C29F6E041F9F507F00F7FDFD /* EnterTextViewController.xib in Resources */,
+				C29F6DE41F9F002100F7FDFD /* ClockViewController.xib in Resources */,
+				C28F02501FA0873C008EA523 /* AlertTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +340,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29F6E0D1F9F5A6D00F7FDFD /* ExpantTextTableViewCell.m in Sources */,
+				C29F6E191F9F705200F7FDFD /* SearchViewController.m in Sources */,
+				C29F6DEB1F9F0C9F00F7FDFD /* Hand.m in Sources */,
 				C29F6DD01F9EF6D300F7FDFD /* ViewController.m in Sources */,
+				C29F6E081F9F57B900F7FDFD /* TextDeatilViewController.m in Sources */,
 				C29F6DCD1F9EF6D300F7FDFD /* AppDelegate.m in Sources */,
 				C29F6DCA1F9EF6D300F7FDFD /* main.m in Sources */,
+				C29F6DE31F9F002100F7FDFD /* ClockViewController.m in Sources */,
+				C29F6DF21F9F193100F7FDFD /* AutoTextViewController.m in Sources */,
+				C28F021B1FA05EF1008EA523 /* StackViewController.m in Sources */,
+				C28F02541FA08814008EA523 /* DetViewController.m in Sources */,
+				C29F6DE71F9F05DA00F7FDFD /* AnalogClock.m in Sources */,
+				C29F6DF81F9F273400F7FDFD /* VisitingViewController.m in Sources */,
+				C29F6E031F9F507F00F7FDFD /* EnterTextViewController.m in Sources */,
+				C29F6DFD1F9F363900F7FDFD /* AddVisitorViewController.m in Sources */,
+				C28F024F1FA0873C008EA523 /* AlertTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +516,7 @@
 				C29F6DDE1F9EF6D300F7FDFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

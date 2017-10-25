@@ -47,5 +47,19 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(void)showAlertWithMessage:(NSString*)message
+{
+    UIAlertController *alertvc = [UIAlertController alertControllerWithTitle:@"" message:message preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* ok = [UIAlertAction
+                         actionWithTitle:@"OK"
+                         style:UIAlertActionStyleDefault
+                         handler:^(UIAlertAction * action)
+                         {[alertvc dismissViewControllerAnimated:YES completion:nil];
+                         }];
+    
+    [alertvc addAction: ok];
+    [self.window.rootViewController presentViewController:alertvc animated:YES completion:nil];
+}
 
 @end

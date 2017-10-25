@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController">
+            <connections>
+                <outlet property="itemTable" destination="BjM-o6-bYT" id="4e2-cF-7vM"/>
+                <outlet property="searchBarView" destination="Ojr-6m-OES" id="QQo-a5-zlL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BjM-o6-bYT">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Gym-2x-LCK"/>
+                        <outlet property="delegate" destination="-1" id="MHL-Nx-zHq"/>
+                    </connections>
+                </tableView>
+                <searchBar contentMode="redraw" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ojr-6m-OES">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Ruw-Hl-Qga"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Wl2-kI-61e"/>
+                    </connections>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ojr-6m-OES" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Dgh-S8-0Ep"/>
+                <constraint firstItem="Ojr-6m-OES" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="N7T-q0-WZe"/>
+                <constraint firstAttribute="bottom" secondItem="BjM-o6-bYT" secondAttribute="bottom" id="gWY-pM-1ul"/>
+                <constraint firstAttribute="trailing" secondItem="Ojr-6m-OES" secondAttribute="trailing" id="goS-h7-xuI"/>
+                <constraint firstItem="BjM-o6-bYT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="s89-jd-u4a"/>
+                <constraint firstItem="BjM-o6-bYT" firstAttribute="top" secondItem="Ojr-6m-OES" secondAttribute="bottom" id="tQg-G4-VFe"/>
+                <constraint firstAttribute="trailing" secondItem="BjM-o6-bYT" secondAttribute="trailing" id="x50-om-Yoe"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SearchViewController.h
 //  Tasks
 //
 //  Created by SreenivasulaReddy on 24/10/17.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UITableView *tasksTable;
+@interface SearchViewController : UIViewController
 
 @end
-
